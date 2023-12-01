@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo -e "Download file size: 10 kb"
 
 curl --trace-time -v -o /dev/null http://192.168.82.78/ipsec/file_10kb
