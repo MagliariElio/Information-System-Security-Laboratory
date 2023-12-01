@@ -13,10 +13,10 @@ config setup
 # Sample VPN connections
 
 conn host-host
-	left=192.168.27.132
-	leftsubnet=192.168.0.0/16
-	right=192.168.27.128
-	rightsubnet=192.168.0.0/16
+	left=192.168.82.78
+	leftsubnet=192.168.82.0/24
+	right=192.168.82.97
+	rightsubnet=192.168.82.0/24
 	authby=psk
 	auto=add
 	leftfirewall=yes
